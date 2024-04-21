@@ -1,0 +1,80 @@
+:root {
+    --sd-color-primary: #f37726;
+    --sd-color-primary-highlight: #da864e;
+    --sd-color-secondary: #267bf3;
+    --sd-color-secondary-highlight: #4e88da;
+}
+
+.bg-jb-one {
+    background-color: #52d16f3b;
+}
+
+.bg-jb-two {
+    background-color: #e7dd7b73;
+}
+
+.bg-jb-three {
+    background-color: #e7b07b96;
+}
+
+
+
+
+
+/* Code blocks */
+pre, code, .md-source {
+    background-color: #e3fffe !important;
+}
+
+ 
+/* tables on the site have excessive spacing */
+
+.table p {
+	margin-bottom: 0;
+}
+
+.table td {
+    padding-bottom: 0.25rem;
+    padding-top:    0.25rem;
+    padding-left:   0.5rem;
+    padding-right:  0.5rem;
+}
+
+
+/* -------------------------------------------
+            SIDE NAV OPTIONS
+------------------------------------------- */
+
+.bd-sidebar-primary {
+	background-color: #f7f7f7;
+    border-right-width: 1px;
+}
+
+
+/* -------------------------------------------
+            PAGE LAYOUT OPTIONS
+------------------------------------------- */
+
+
+/* shift left nav to all the way to left (more page space)   */
+
+.bd-container {
+    justify-content: left !important;
+}
+
+.bd-page-width {
+    width: 100% !important;
+    max-width: 1960px !important;
+    
+}
+
+.bd-sidebar-primary {
+    max-width: 350px !important;      
+}
+
+.container-xl {
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+	max-width: 1800px;
+}
+
