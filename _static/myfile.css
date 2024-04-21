@@ -48,7 +48,6 @@ pre, code, .md-source {
 .bd-sidebar-primary {
     max-width: 350px !important;
   }
-}
 
 /* -------------------------------------------
             PAGE LAYOUT OPTIONS
@@ -60,7 +59,6 @@ pre, code, .md-source {
 .bd-page-width {
     width: 2900px !important;
     max-width: 100% !important;
-  }
 }
 
 .container-xl {
